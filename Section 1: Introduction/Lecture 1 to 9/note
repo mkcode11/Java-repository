@@ -1,0 +1,8 @@
+1. JVM converts .class to machine code
+2. { System.out.println("Hello World!"); } is used to print something.
+3. { Scanner sc = new Scanner(System.in); } is used to take input.
+4. { int num1 = sc.nextInt(); } is used to read Intger. and there are alots of methods like this.
+5. { string name = sc.next(); } is used to accept only ONE single word.
+6. { string name = sc.nextLine(); } is used to accept Whole Line or String with spaces and all.
+7. File name Should be Same as Class Name.
+8. import java.util.*; must be written to use Scanner in Class.
