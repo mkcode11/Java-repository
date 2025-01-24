@@ -1,26 +1,15 @@
-import java.util.*;
-public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int length,breath,height; double volume,total_area;
-        System.out.println("Calculate Total Area and Volume of Cuboid!");
 
-        System.out.print("Enter Length : ");
-        length =  sc.nextInt();
+class Main {
 
-        System.out.print("Enter Breath : ");
-        breath = sc.nextInt();
+    public static void main(String[] args){
 
-        System.out.print("Enter Height : ");
-        height = sc.nextInt();
+        int x=5,y=6;
 
-        total_area = 2 * ((length * height) + (height * breath) + (length * breath));
-        volume = length*breath*height;
+        int z = 2 * x++ + 3 * ++y;
 
-        System.out.println("Total Area of Cuboid : " + total_area);
-        System.out.println("Volume of Cuboid : " + volume);
-
+        System.out.println(z);
 
 
     }
+
 }
