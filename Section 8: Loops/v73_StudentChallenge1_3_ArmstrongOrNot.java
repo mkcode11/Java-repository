@@ -6,12 +6,19 @@ public class v73_StudentChallenge1_3_ArmstrongOrNot {
         Scanner sc=new Scanner(System.in);
 
         System.out.print("Enter Number : ");
-        int num=sc.nextInt(),armStrong=0;
-
+        int num=sc.nextInt(),armStrong=0,count=0;
         int copy=num;
+
+
+        while(num!=0){
+            ++count;
+            num/=10;
+        }
+
+        num=copy;
         while(num!=0){
 
-            armStrong+=pow((num%10),3);
+            armStrong+=pow((num%10),count);
             num/=10;
         }
 
