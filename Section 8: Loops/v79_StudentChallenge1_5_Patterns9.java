@@ -6,16 +6,16 @@ public class v79_StudentChallenge1_5_Patterns9 {
             for(int column=1;column<=5;++column){
 
                 if(row+column>5){
-                    System.out.print(" *");
+                    System.out.print("  *");
                 }
                 else {
-                    System.out.print("  ");
+                    System.out.print("   ");
                 }
 
             }
             if(row>1){
                 for(int column=1;column<row;++column){
-                    System.out.print(" *");
+                    System.out.print("  *");
                 }
             }
             System.out.println();
@@ -29,10 +29,10 @@ public class v79_StudentChallenge1_5_Patterns9 {
             for (int column = 1; column <= 5; ++column) {
 
                 if (column>=row+1){
-                        System.out.print(" *");
+                        System.out.print("  *");
                 }
                 else{
-                        System.out.print("  ");
+                        System.out.print("   ");
                 }
 
 
@@ -40,7 +40,7 @@ public class v79_StudentChallenge1_5_Patterns9 {
             for(int column=1;column<=4;++column){
 
                 if(column>row){
-                    System.out.print(" *");
+                    System.out.print("  *");
                 }
             }
             System.out.println();
