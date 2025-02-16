@@ -25,7 +25,7 @@ public class v109_StudentChallenge_2_ClassForCylinder {
 
         Cylinder c1=new Cylinder();
 
-        c1.radius=8;
+        c1.radius=8.53;
         c1.height=14;
 
         System.out.println("Area : "+c1.lidArea());
